@@ -10,6 +10,7 @@
 
 
 Editor::Editor()
+  :cursorLineNum{1},cursorColumnNum{1},lineCountNum{1}
 {
 }
 
@@ -38,3 +39,8 @@ const std::string& Editor::line(int lineNumber) const
     return removeThis;
 }
 
+//.........MY PUBLIC FUNCTIONS
+
+//void Editor::incColNum
+
+//.........MY PRIVATE VARIABLES

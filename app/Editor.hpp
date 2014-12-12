@@ -37,7 +37,7 @@
 #define EDITOR_HPP
 
 #include <string>
-
+#include <vector>
 
 
 class Editor
@@ -63,6 +63,16 @@ public:
 private:
     // Write declarations for any private member variables here.
     // Additionally, you can add any private member functions you'd like.
+
+  int cursorLineNum;
+  int cursorColumnNum;
+  int lineCountNum;
+  
+  std::vector<std::vector<char>> a;
+
+  
+  
+
 };
 
 

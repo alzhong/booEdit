@@ -6,6 +6,7 @@ SET(CMAKE_DEPENDS_LANGUAGES
 SET(CMAKE_DEPENDS_CHECK_CXX
   "/home/ics45c/projects/booEdit/app/BooEdit.cpp" "/home/ics45c/projects/booEdit/out/CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o"
   "/home/ics45c/projects/booEdit/app/BooEditLog.cpp" "/home/ics45c/projects/booEdit/out/CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o"
+  "/home/ics45c/projects/booEdit/app/Command.my.cpp" "/home/ics45c/projects/booEdit/out/CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o"
   "/home/ics45c/projects/booEdit/app/CommandProcessor.cpp" "/home/ics45c/projects/booEdit/out/CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o"
   "/home/ics45c/projects/booEdit/app/Editor.cpp" "/home/ics45c/projects/booEdit/out/CMakeFiles/a.out.gtest.dir/app/Editor.cpp.o"
   "/home/ics45c/projects/booEdit/app/EditorView.cpp" "/home/ics45c/projects/booEdit/out/CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o"

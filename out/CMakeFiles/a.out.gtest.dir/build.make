@@ -141,9 +141,32 @@ CMakeFiles/a.out.gtest.dir/app/Keypress.cpp.o.provides: CMakeFiles/a.out.gtest.d
 
 CMakeFiles/a.out.gtest.dir/app/Keypress.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/Keypress.cpp.o
 
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o: ../app/Command.my.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_5)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o -c /home/ics45c/projects/booEdit/app/Command.my.cpp
+
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.my.cpp > CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.i
+
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.my.cpp -o CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.s
+
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.requires:
+.PHONY : CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.requires
+
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.provides: CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.provides
+
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o
+
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o: ../app/CommandProcessor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_5)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_6)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o -c /home/ics45c/projects/booEdit/app/CommandProcessor.cpp
 
@@ -166,7 +189,7 @@ CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o.provides.build: CMakeFiles
 
 CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
 CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o: ../app/EditorView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o -c /home/ics45c/projects/booEdit/app/EditorView.cpp
 
@@ -189,7 +212,7 @@ CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o.provides.build: CMakeFiles/a.out
 
 CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
 CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o -c /home/ics45c/projects/booEdit/app/BooEditLog.cpp
 
@@ -216,6 +239,7 @@ a_out_gtest_OBJECTS = \
 "CMakeFiles/a.out.gtest.dir/app/Editor.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/Keypress.cpp.o" \
+"CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o"
@@ -227,6 +251,7 @@ bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/Editor.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/Keypress.cpp.o
+bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o
@@ -243,6 +268,7 @@ CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/gtest/gtestmain.
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/Editor.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/Keypress.cpp.o.requires
+CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o.requires

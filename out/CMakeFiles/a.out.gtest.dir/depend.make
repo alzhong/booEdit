@@ -11,6 +11,11 @@ CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o: ../app/EditorView.hpp
 CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.cpp
 CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.hpp
 
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o: ../app/Command.my.cpp
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o: ../app/Command.my.hpp
+CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o: ../app/Editor.hpp
+
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o: ../app/CommandProcessor.cpp
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o: ../app/CommandProcessor.hpp

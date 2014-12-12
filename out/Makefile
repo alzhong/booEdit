@@ -178,6 +178,33 @@ app/BooEditLog.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.s
 .PHONY : app/BooEditLog.cpp.s
 
+app/Command.my.o: app/Command.my.cpp.o
+.PHONY : app/Command.my.o
+
+# target to build an object file
+app/Command.my.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o
+.PHONY : app/Command.my.cpp.o
+
+app/Command.my.i: app/Command.my.cpp.i
+.PHONY : app/Command.my.i
+
+# target to preprocess a source file
+app/Command.my.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.i
+.PHONY : app/Command.my.cpp.i
+
+app/Command.my.s: app/Command.my.cpp.s
+.PHONY : app/Command.my.s
+
+# target to generate assembly for a file
+app/Command.my.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.s
+.PHONY : app/Command.my.cpp.s
+
 app/CommandProcessor.o: app/CommandProcessor.cpp.o
 .PHONY : app/CommandProcessor.o
 
@@ -350,6 +377,9 @@ help:
 	@echo "... app/BooEditLog.o"
 	@echo "... app/BooEditLog.i"
 	@echo "... app/BooEditLog.s"
+	@echo "... app/Command.my.o"
+	@echo "... app/Command.my.i"
+	@echo "... app/Command.my.s"
 	@echo "... app/CommandProcessor.o"
 	@echo "... app/CommandProcessor.i"
 	@echo "... app/CommandProcessor.s"
