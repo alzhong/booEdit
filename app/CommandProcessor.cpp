@@ -100,12 +100,6 @@ namespace
             {
                 // The user pressed a normal key (e.g., 'h') without holding
                 // down Ctrl; react accordingly
-                
-                //-------------------------------------
-                // COMMAND IS ADDED HERE
-                //-------------------------------------
-
-
             }
         }
     }

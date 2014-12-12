@@ -1,2 +1,0 @@
-/home/ics45c/projects/finalProject/out/CMakeFiles/a.out.app.dir
-/home/ics45c/projects/finalProject/out/CMakeFiles/a.out.gtest.dir

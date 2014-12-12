@@ -5,7 +5,7 @@
 //
 // This is the main() function that launches BooEdit.
 //
-// DO ***NOT*** MAKE CHANGES TO THIS FILE
+// DO NOT MAKE CHANGES TO THIS FILE
 
 #include <sstream>
 #include "BooEdit.hpp"
