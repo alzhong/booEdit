@@ -4,7 +4,7 @@
 // Project #4: People Just Love to Play with Words
 //
 // (C) AARON ZHONG
-// LAST MODIFIED: 12/12/2014
+// LAST MODIFIED: 12/13/2014
 
 #ifndef NEWLINECOMMAND_HPP
 #define NEWLINECOMMAND_HPP
@@ -20,7 +20,7 @@ public:
   virtual void undo(Editor& editor);
 
 private:
-  char charToAdd;
+
 };
 
 

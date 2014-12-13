@@ -34,6 +34,10 @@ iostream
 Command.hpp
 /home/ics45c/projects/booEdit/app/Command.hpp
 
+/home/ics45c/projects/booEdit/app/Command.move.cpp
+Command.move.hpp
+/home/ics45c/projects/booEdit/app/Command.move.hpp
+
 /home/ics45c/projects/booEdit/app/Command.move.hpp
 Command.hpp
 /home/ics45c/projects/booEdit/app/Command.hpp
@@ -69,6 +73,8 @@ Command.move.hpp
 /home/ics45c/projects/booEdit/app/Command.move.hpp
 Command.insert.hpp
 /home/ics45c/projects/booEdit/app/Command.insert.hpp
+Command.newLine.hpp
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
 
 /home/ics45c/projects/booEdit/app/Editor.cpp
 iostream
@@ -87,6 +93,20 @@ vector
 /home/ics45c/projects/booEdit/app/EditorException.hpp
 string
 -
+
+/home/ics45c/projects/booEdit/app/EditorView.cpp
+csignal
+-
+sstream
+-
+string
+-
+ncurses.h
+-
+EditorView.hpp
+/home/ics45c/projects/booEdit/app/EditorView.hpp
+EditorException.hpp
+/home/ics45c/projects/booEdit/app/EditorException.hpp
 
 /home/ics45c/projects/booEdit/app/EditorView.hpp
 Editor.hpp

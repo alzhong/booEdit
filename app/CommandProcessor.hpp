@@ -22,6 +22,7 @@
 
 #include "Command.move.hpp"
 #include "Command.insert.hpp"
+#include "Command.newLine.hpp"
 
 class CommandProcessor
 {

@@ -94,8 +94,11 @@ namespace
                 switch (keypress.c)
                 {
                 case 'X':
-                    return makeQuitInteraction();
+                  return makeQuitInteraction();
+                case 'J' : case 'M' :      
+                  return makeCommandInteraction(new newLineCommand()); 
                 }
+
             }
             else
             {

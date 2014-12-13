@@ -47,6 +47,10 @@ void Editor::incColNum()
 {
   this->cursorColumnNum += 1;
 }
+void Editor::incLinNum()
+{
+  cursorLineNum += 1; 
+}
 
 void Editor::modifyAndMoveText(char charToAdd)
 {
@@ -56,5 +60,26 @@ void Editor::modifyAndMoveText(char charToAdd)
 
 }
 
+void Editor::deleteChar()
+{
+  //textDB[cursorLine()-1].erase(cursorColumn()-1);
+}
 
-//.........MY PRIVATE VARIABLES
+
+void Editor::createNewLine()
+{
+  //textDB.insert(&textDB[cursorLine()],"");
+  textDB.insert(textDB.begin() + cursorLine(),"");
+
+  resetColumnNum();
+  incLinNum();
+  
+}
+
+
+//.........MY PRIVATE FUNCTIONS
+
+void Editor::resetColumnNum()
+{
+  cursorColumnNum = 1;
+}
