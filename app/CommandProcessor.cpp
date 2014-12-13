@@ -97,6 +97,8 @@ namespace
                   return makeQuitInteraction();
                 case 'J' : case 'M' :      
                   return makeCommandInteraction(new newLineCommand()); 
+                case 'D':
+                  return makeCommandInteraction(new deleteCommand());
                 }
 
             }

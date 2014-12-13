@@ -11,7 +11,7 @@
 
 
 Editor::Editor()
-  :cursorLineNum{1},cursorColumnNum{1},lineCountNum{1}, textDB{1, ""}
+  :cursorLineNum{1},cursorColumnNum{1}, textDB{1, ""}
 {
 }
 
@@ -30,7 +30,7 @@ int Editor::cursorColumn() const
 
 int Editor::lineCount() const
 {
-    return lineCountNum;
+  return textDB.size();
 }
 
 
@@ -47,6 +47,10 @@ void Editor::incColNum()
 {
   this->cursorColumnNum += 1;
 }
+void Editor::decColNum()
+{
+  this->cursorColumnNum -= 1;
+}
 void Editor::incLinNum()
 {
   cursorLineNum += 1; 
@@ -62,7 +66,12 @@ void Editor::modifyAndMoveText(char charToAdd)
 
 void Editor::deleteChar()
 {
-  textDB[cursorLine()-1].erase(cursorColumn()-1);
+  if (cursorColumn() >= 2)
+    {
+      textDB[cursorLine()-1].erase(cursorColumn()-2);
+      decColNum();
+    }
+  
 }
 
 

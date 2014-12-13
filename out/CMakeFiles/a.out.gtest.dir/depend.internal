@@ -4,6 +4,7 @@
 CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o
  /home/ics45c/projects/booEdit/app/BooEdit.cpp
  /home/ics45c/projects/booEdit/app/BooEdit.hpp
+ /home/ics45c/projects/booEdit/app/Command.delete.hpp
  /home/ics45c/projects/booEdit/app/Command.hpp
  /home/ics45c/projects/booEdit/app/Command.insert.hpp
  /home/ics45c/projects/booEdit/app/Command.move.hpp
@@ -35,6 +36,7 @@ CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.o
  /home/ics45c/projects/booEdit/app/Command.newLine.hpp
  /home/ics45c/projects/booEdit/app/Editor.hpp
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o
+ /home/ics45c/projects/booEdit/app/Command.delete.hpp
  /home/ics45c/projects/booEdit/app/Command.hpp
  /home/ics45c/projects/booEdit/app/Command.insert.hpp
  /home/ics45c/projects/booEdit/app/Command.move.hpp

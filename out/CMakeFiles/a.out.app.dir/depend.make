@@ -3,6 +3,7 @@
 
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/BooEdit.cpp
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/BooEdit.hpp
+CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/Command.delete.hpp
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/Command.insert.hpp
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/Command.move.hpp
@@ -34,6 +35,7 @@ CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o: ../app/Command.newLine.cpp
 CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o: ../app/Command.newLine.hpp
 CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o: ../app/Editor.hpp
 
+CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o: ../app/Command.delete.hpp
 CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o: ../app/Command.insert.hpp
 CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o: ../app/Command.move.hpp

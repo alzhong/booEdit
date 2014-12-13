@@ -63,7 +63,10 @@ public:
 //.........MY PUBLIC FUNCTIONS
 
   void incColNum();
+  void decColNum();
+
   void incLinNum();
+  void decLinNum();
   
 
   void modifyAndMoveText(char charToAdd);
@@ -76,7 +79,6 @@ private:
 
   int cursorLineNum;
   int cursorColumnNum;
-  int lineCountNum;
   
   std::vector<std::string> textDB;
 
