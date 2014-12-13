@@ -178,32 +178,86 @@ app/BooEditLog.cpp.s:
 	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.s
 .PHONY : app/BooEditLog.cpp.s
 
-app/Command.my.o: app/Command.my.cpp.o
-.PHONY : app/Command.my.o
+app/Command.insert.o: app/Command.insert.cpp.o
+.PHONY : app/Command.insert.o
 
 # target to build an object file
-app/Command.my.cpp.o:
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.o
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o
-.PHONY : app/Command.my.cpp.o
+app/Command.insert.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o
+.PHONY : app/Command.insert.cpp.o
 
-app/Command.my.i: app/Command.my.cpp.i
-.PHONY : app/Command.my.i
+app/Command.insert.i: app/Command.insert.cpp.i
+.PHONY : app/Command.insert.i
 
 # target to preprocess a source file
-app/Command.my.cpp.i:
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.i
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.i
-.PHONY : app/Command.my.cpp.i
+app/Command.insert.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.insert.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.i
+.PHONY : app/Command.insert.cpp.i
 
-app/Command.my.s: app/Command.my.cpp.s
-.PHONY : app/Command.my.s
+app/Command.insert.s: app/Command.insert.cpp.s
+.PHONY : app/Command.insert.s
 
 # target to generate assembly for a file
-app/Command.my.cpp.s:
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.s
-	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.s
-.PHONY : app/Command.my.cpp.s
+app/Command.insert.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.insert.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.s
+.PHONY : app/Command.insert.cpp.s
+
+app/Command.move.o: app/Command.move.cpp.o
+.PHONY : app/Command.move.o
+
+# target to build an object file
+app/Command.move.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.move.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.move.cpp.o
+.PHONY : app/Command.move.cpp.o
+
+app/Command.move.i: app/Command.move.cpp.i
+.PHONY : app/Command.move.i
+
+# target to preprocess a source file
+app/Command.move.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.move.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.move.cpp.i
+.PHONY : app/Command.move.cpp.i
+
+app/Command.move.s: app/Command.move.cpp.s
+.PHONY : app/Command.move.s
+
+# target to generate assembly for a file
+app/Command.move.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.move.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.move.cpp.s
+.PHONY : app/Command.move.cpp.s
+
+app/Command.newLine.o: app/Command.newLine.cpp.o
+.PHONY : app/Command.newLine.o
+
+# target to build an object file
+app/Command.newLine.cpp.o:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.o
+.PHONY : app/Command.newLine.cpp.o
+
+app/Command.newLine.i: app/Command.newLine.cpp.i
+.PHONY : app/Command.newLine.i
+
+# target to preprocess a source file
+app/Command.newLine.cpp.i:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.i
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.i
+.PHONY : app/Command.newLine.cpp.i
+
+app/Command.newLine.s: app/Command.newLine.cpp.s
+.PHONY : app/Command.newLine.s
+
+# target to generate assembly for a file
+app/Command.newLine.cpp.s:
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.s
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.s
+.PHONY : app/Command.newLine.cpp.s
 
 app/CommandProcessor.o: app/CommandProcessor.cpp.o
 .PHONY : app/CommandProcessor.o
@@ -377,9 +431,15 @@ help:
 	@echo "... app/BooEditLog.o"
 	@echo "... app/BooEditLog.i"
 	@echo "... app/BooEditLog.s"
-	@echo "... app/Command.my.o"
-	@echo "... app/Command.my.i"
-	@echo "... app/Command.my.s"
+	@echo "... app/Command.insert.o"
+	@echo "... app/Command.insert.i"
+	@echo "... app/Command.insert.s"
+	@echo "... app/Command.move.o"
+	@echo "... app/Command.move.i"
+	@echo "... app/Command.move.s"
+	@echo "... app/Command.newLine.o"
+	@echo "... app/Command.newLine.i"
+	@echo "... app/Command.newLine.s"
 	@echo "... app/CommandProcessor.o"
 	@echo "... app/CommandProcessor.i"
 	@echo "... app/CommandProcessor.s"

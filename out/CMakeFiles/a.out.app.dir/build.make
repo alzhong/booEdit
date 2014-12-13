@@ -49,9 +49,32 @@ include CMakeFiles/a.out.app.dir/progress.make
 # Include the compile flags for this target's objects.
 include CMakeFiles/a.out.app.dir/flags.make
 
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.o: CMakeFiles/a.out.app.dir/flags.make
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.o: ../app/Command.move.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_1)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Command.move.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Command.move.cpp.o -c /home/ics45c/projects/booEdit/app/Command.move.cpp
+
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.app.dir/app/Command.move.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.move.cpp > CMakeFiles/a.out.app.dir/app/Command.move.cpp.i
+
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.app.dir/app/Command.move.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.move.cpp -o CMakeFiles/a.out.app.dir/app/Command.move.cpp.s
+
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.requires:
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.requires
+
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.provides: CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.provides
+
+CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Command.move.cpp.o
+
 CMakeFiles/a.out.app.dir/app/Editor.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/Editor.cpp.o: ../app/Editor.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_1)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_2)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Editor.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Editor.cpp.o -c /home/ics45c/projects/booEdit/app/Editor.cpp
 
@@ -74,7 +97,7 @@ CMakeFiles/a.out.app.dir/app/Editor.cpp.o.provides.build: CMakeFiles/a.out.app.d
 
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/BooEdit.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_2)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_3)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o -c /home/ics45c/projects/booEdit/app/BooEdit.cpp
 
@@ -97,7 +120,7 @@ CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o.provides.build: CMakeFiles/a.out.app.
 
 CMakeFiles/a.out.app.dir/app/Keypress.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/Keypress.cpp.o: ../app/Keypress.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_3)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_4)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Keypress.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Keypress.cpp.o -c /home/ics45c/projects/booEdit/app/Keypress.cpp
 
@@ -117,29 +140,6 @@ CMakeFiles/a.out.app.dir/app/Keypress.cpp.o.provides: CMakeFiles/a.out.app.dir/a
 .PHONY : CMakeFiles/a.out.app.dir/app/Keypress.cpp.o.provides
 
 CMakeFiles/a.out.app.dir/app/Keypress.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Keypress.cpp.o
-
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.o: CMakeFiles/a.out.app.dir/flags.make
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.o: ../app/Command.my.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_4)
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Command.my.cpp.o"
-	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Command.my.cpp.o -c /home/ics45c/projects/booEdit/app/Command.my.cpp
-
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.i: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.app.dir/app/Command.my.cpp.i"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.my.cpp > CMakeFiles/a.out.app.dir/app/Command.my.cpp.i
-
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.s: cmake_force
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.app.dir/app/Command.my.cpp.s"
-	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.my.cpp -o CMakeFiles/a.out.app.dir/app/Command.my.cpp.s
-
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.requires:
-.PHONY : CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.requires
-
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.provides: CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.requires
-	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.provides.build
-.PHONY : CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.provides
-
-CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Command.my.cpp.o
 
 CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o: ../app/CommandProcessor.cpp
@@ -164,9 +164,32 @@ CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o.provides: CMakeFiles/a.out.a
 
 CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o
 
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o: CMakeFiles/a.out.app.dir/flags.make
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o: ../app/Command.newLine.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_6)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o -c /home/ics45c/projects/booEdit/app/Command.newLine.cpp
+
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.newLine.cpp > CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.i
+
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.newLine.cpp -o CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.s
+
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.requires:
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.requires
+
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.provides: CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.provides
+
+CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o
+
 CMakeFiles/a.out.app.dir/app/EditorView.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/EditorView.cpp.o: ../app/EditorView.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_6)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_7)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/EditorView.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/EditorView.cpp.o -c /home/ics45c/projects/booEdit/app/EditorView.cpp
 
@@ -189,7 +212,7 @@ CMakeFiles/a.out.app.dir/app/EditorView.cpp.o.provides.build: CMakeFiles/a.out.a
 
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_7)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_8)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o -c /home/ics45c/projects/booEdit/app/BooEditLog.cpp
 
@@ -210,9 +233,32 @@ CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o.provides: CMakeFiles/a.out.app.dir
 
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o
 
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o: CMakeFiles/a.out.app.dir/flags.make
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o: ../app/Command.insert.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_9)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o -c /home/ics45c/projects/booEdit/app/Command.insert.cpp
+
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.app.dir/app/Command.insert.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.insert.cpp > CMakeFiles/a.out.app.dir/app/Command.insert.cpp.i
+
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.app.dir/app/Command.insert.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.insert.cpp -o CMakeFiles/a.out.app.dir/app/Command.insert.cpp.s
+
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.requires:
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.requires
+
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.provides: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.provides
+
+CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o
+
 CMakeFiles/a.out.app.dir/app/main.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/main.cpp.o: ../app/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_8)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_10)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/main.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/main.cpp.o -c /home/ics45c/projects/booEdit/app/main.cpp
 
@@ -235,25 +281,29 @@ CMakeFiles/a.out.app.dir/app/main.cpp.o.provides.build: CMakeFiles/a.out.app.dir
 
 # Object files for target a.out.app
 a_out_app_OBJECTS = \
+"CMakeFiles/a.out.app.dir/app/Command.move.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/Editor.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/Keypress.cpp.o" \
-"CMakeFiles/a.out.app.dir/app/Command.my.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o" \
+"CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/EditorView.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o" \
+"CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/main.cpp.o"
 
 # External object files for target a.out.app
 a_out_app_EXTERNAL_OBJECTS =
 
+bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.move.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/Editor.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/Keypress.cpp.o
-bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.my.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o
+bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/EditorView.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o
+bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/main.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/build.make
 bin/a.out.app: CMakeFiles/a.out.app.dir/link.txt
@@ -264,13 +314,15 @@ bin/a.out.app: CMakeFiles/a.out.app.dir/link.txt
 CMakeFiles/a.out.app.dir/build: bin/a.out.app
 .PHONY : CMakeFiles/a.out.app.dir/build
 
+CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.move.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Editor.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Keypress.cpp.o.requires
-CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.my.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/CommandProcessor.cpp.o.requires
+CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/EditorView.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o.requires
+CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/main.cpp.o.requires
 .PHONY : CMakeFiles/a.out.app.dir/requires
 

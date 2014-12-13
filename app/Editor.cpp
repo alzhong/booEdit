@@ -5,42 +5,56 @@
 //
 // Implementation of the Editor class
 
+#include <iostream>
 #include "Editor.hpp"
 #include "EditorException.hpp"
 
 
 Editor::Editor()
-  :cursorLineNum{1},cursorColumnNum{1},lineCountNum{1}
+  :cursorLineNum{1},cursorColumnNum{1},lineCountNum{1}, textDB{1, ""}
 {
 }
 
 
 int Editor::cursorLine() const
 {
-    return 1;
+    return cursorLineNum;
 }
 
 
 int Editor::cursorColumn() const
 {
-    return 1;
+    return cursorColumnNum;
 }
 
 
 int Editor::lineCount() const
 {
-    return 1;
+    return lineCountNum;
 }
 
 
 const std::string& Editor::line(int lineNumber) const
 {
-    static std::string removeThis = "BooEdit!";
-    return removeThis;
+  //static std::string removeThis =  "booEdit";
+
+  return textDB[lineNumber-1];
 }
 
 //.........MY PUBLIC FUNCTIONS
 
-//void Editor::incColNum
+void Editor::incColNum()
+{
+  this->cursorColumnNum += 1;
+}
+
+void Editor::modifyAndMoveText(char charToAdd)
+{
+
+  textDB[cursorLine()-1].insert(cursorColumn()-1, &charToAdd, 1);
+  incColNum();
+
+}
+
 
 //.........MY PRIVATE VARIABLES

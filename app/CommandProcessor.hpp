@@ -20,13 +20,15 @@
 #include "EditorView.hpp"
 #include "Command.hpp"
 
-
+#include "Command.move.hpp"
+#include "Command.insert.hpp"
 
 class CommandProcessor
 {
 public:
-    CommandProcessor(Editor& editor, EditorView& view);
-    void run();
+  CommandProcessor(Editor& editor, EditorView& view);
+  
+  void run();
 
 private:
     Editor& editor;

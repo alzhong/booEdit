@@ -24,11 +24,27 @@ CommandProcessor.hpp
 Editor.hpp
 /home/ics45c/projects/booEdit/app/Editor.hpp
 
-/home/ics45c/projects/booEdit/app/Command.my.cpp
-Command.my.hpp
-/home/ics45c/projects/booEdit/app/Command.my.hpp
+/home/ics45c/projects/booEdit/app/Command.insert.cpp
+Command.insert.hpp
+/home/ics45c/projects/booEdit/app/Command.insert.hpp
+iostream
+-
 
-/home/ics45c/projects/booEdit/app/Command.my.hpp
+/home/ics45c/projects/booEdit/app/Command.insert.hpp
+Command.hpp
+/home/ics45c/projects/booEdit/app/Command.hpp
+
+/home/ics45c/projects/booEdit/app/Command.move.hpp
+Command.hpp
+/home/ics45c/projects/booEdit/app/Command.hpp
+
+/home/ics45c/projects/booEdit/app/Command.newLine.cpp
+Command.newLine.hpp
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
+iostream
+-
+
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
 Command.hpp
 /home/ics45c/projects/booEdit/app/Command.hpp
 
@@ -39,6 +55,8 @@ EditorException.hpp
 /home/ics45c/projects/booEdit/app/EditorException.hpp
 Keypress.hpp
 /home/ics45c/projects/booEdit/app/Keypress.hpp
+iostream
+-
 
 /home/ics45c/projects/booEdit/app/CommandProcessor.hpp
 Editor.hpp
@@ -47,8 +65,14 @@ EditorView.hpp
 /home/ics45c/projects/booEdit/app/EditorView.hpp
 Command.hpp
 /home/ics45c/projects/booEdit/app/Command.hpp
+Command.move.hpp
+/home/ics45c/projects/booEdit/app/Command.move.hpp
+Command.insert.hpp
+/home/ics45c/projects/booEdit/app/Command.insert.hpp
 
 /home/ics45c/projects/booEdit/app/Editor.cpp
+iostream
+-
 Editor.hpp
 /home/ics45c/projects/booEdit/app/Editor.hpp
 EditorException.hpp

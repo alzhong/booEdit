@@ -5,19 +5,33 @@ CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o
  /home/ics45c/projects/booEdit/app/BooEdit.cpp
  /home/ics45c/projects/booEdit/app/BooEdit.hpp
  /home/ics45c/projects/booEdit/app/Command.hpp
+ /home/ics45c/projects/booEdit/app/Command.insert.hpp
+ /home/ics45c/projects/booEdit/app/Command.move.hpp
  /home/ics45c/projects/booEdit/app/CommandProcessor.hpp
  /home/ics45c/projects/booEdit/app/Editor.hpp
  /home/ics45c/projects/booEdit/app/EditorView.hpp
 CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o
  /home/ics45c/projects/booEdit/app/BooEditLog.cpp
  /home/ics45c/projects/booEdit/app/BooEditLog.hpp
-CMakeFiles/a.out.gtest.dir/app/Command.my.cpp.o
+CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o
  /home/ics45c/projects/booEdit/app/Command.hpp
- /home/ics45c/projects/booEdit/app/Command.my.cpp
- /home/ics45c/projects/booEdit/app/Command.my.hpp
+ /home/ics45c/projects/booEdit/app/Command.insert.cpp
+ /home/ics45c/projects/booEdit/app/Command.insert.hpp
+ /home/ics45c/projects/booEdit/app/Editor.hpp
+CMakeFiles/a.out.gtest.dir/app/Command.move.cpp.o
+ /home/ics45c/projects/booEdit/app/Command.hpp
+ /home/ics45c/projects/booEdit/app/Command.move.cpp
+ /home/ics45c/projects/booEdit/app/Command.move.hpp
+ /home/ics45c/projects/booEdit/app/Editor.hpp
+CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.o
+ /home/ics45c/projects/booEdit/app/Command.hpp
+ /home/ics45c/projects/booEdit/app/Command.newLine.cpp
+ /home/ics45c/projects/booEdit/app/Command.newLine.hpp
  /home/ics45c/projects/booEdit/app/Editor.hpp
 CMakeFiles/a.out.gtest.dir/app/CommandProcessor.cpp.o
  /home/ics45c/projects/booEdit/app/Command.hpp
+ /home/ics45c/projects/booEdit/app/Command.insert.hpp
+ /home/ics45c/projects/booEdit/app/Command.move.hpp
  /home/ics45c/projects/booEdit/app/CommandProcessor.cpp
  /home/ics45c/projects/booEdit/app/CommandProcessor.hpp
  /home/ics45c/projects/booEdit/app/Editor.hpp

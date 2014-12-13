@@ -6,16 +6,16 @@
 // (C) AARON ZHONG
 // LAST MODIFIED: 12/12/2014
 
-#ifndef MYCOMMAND_HPP
-#define MYCOMMAND_HPP
+#ifndef MOVECOMMAND_HPP
+#define MOVECOMMAND_HPP
 
 #include "Command.hpp"
 
 
-class myCommand
+class moveCommand: public Command
 {
 public:
-    virtual ~myCommand() = default;
+    virtual ~moveCommand() = default;
 
     virtual void execute(Editor& editor);
     virtual void undo(Editor& editor);
@@ -23,5 +23,5 @@ public:
 
 
 
-#endif // MYCOMMAND_HPP
+#endif // MOVECOMMAND_HPP
 

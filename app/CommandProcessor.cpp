@@ -9,6 +9,7 @@
 #include "EditorException.hpp"
 #include "Keypress.hpp"
 
+#include <iostream>
 
 CommandProcessor::CommandProcessor(Editor& editor, EditorView& view)
     : editor{editor}, view{view}
@@ -48,7 +49,7 @@ namespace
     };
 
 
-/*
+
     // You'll want these three functions, but I'm commenting them out for now,
     // so that this will compile without warnings.
 
@@ -57,7 +58,7 @@ namespace
         return UserInteraction{UserInteractionType::command, command};
     }
 
-
+/*
     UserInteraction makeUndoInteraction()
     {
         return UserInteraction{UserInteractionType::undo, nullptr};
@@ -85,7 +86,7 @@ namespace
         while (true)
         {
             Keypress keypress = nextKeypress();
-
+            
             if (keypress.ctrl)
             {
                 // The user pressed a Ctrl key (e.g., Ctrl+X); react accordingly
@@ -100,6 +101,9 @@ namespace
             {
                 // The user pressed a normal key (e.g., 'h') without holding
                 // down Ctrl; react accordingly
+
+              return makeCommandInteraction(new insertCommand(keypress.c));
+
             }
         }
     }
@@ -111,6 +115,7 @@ namespace
 
 void CommandProcessor::run()
 {
+  
     view.refresh();
 
     while (true)
@@ -129,8 +134,10 @@ void CommandProcessor::run()
         }
         else if (interaction.type == UserInteractionType::command)
         {
+         
             try
             {
+              
                 interaction.command->execute(editor);
                 view.clearErrorMessage();
             }

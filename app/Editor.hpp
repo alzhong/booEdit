@@ -58,8 +58,12 @@ public:
 
     // Returns the text on the given line number.
     const std::string& line(int lineNumber) const;
+  
+  void incColNum();
 
 
+  void modifyAndMoveText(char charToAdd);
+  
 private:
     // Write declarations for any private member variables here.
     // Additionally, you can add any private member functions you'd like.
@@ -68,9 +72,8 @@ private:
   int cursorColumnNum;
   int lineCountNum;
   
-  std::vector<std::vector<char>> a;
+  std::vector<std::string> textDB;
 
-  
   
 
 };

@@ -10,11 +10,13 @@
 Editor.hpp
 /home/ics45c/projects/booEdit/app/Editor.hpp
 
-/home/ics45c/projects/booEdit/app/Command.my.cpp
-Command.my.hpp
-/home/ics45c/projects/booEdit/app/Command.my.hpp
+/home/ics45c/projects/booEdit/app/Command.newLine.cpp
+Command.newLine.hpp
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
+iostream
+-
 
-/home/ics45c/projects/booEdit/app/Command.my.hpp
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
 Command.hpp
 /home/ics45c/projects/booEdit/app/Command.hpp
 

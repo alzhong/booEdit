@@ -6,13 +6,14 @@
 // (C) AARON ZHONG
 // LAST MODIFIED: 12/12/2014
 
-#include "Command.my.hpp"
+#include "Command.move.hpp"
 
-void myCommand::execute(Editor& editor)
+void moveCommand::execute(Editor& editor )
 {
+  editor.incColNum();
 }
 
-void myCommand::undo(Editor& editor)
+void moveCommand::undo(Editor& editor)
 {
 }
 
