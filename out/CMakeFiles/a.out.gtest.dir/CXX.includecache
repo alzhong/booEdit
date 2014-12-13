@@ -6,21 +6,23 @@
 
 #IncludeRegexTransform: 
 
-/home/ics45c/projects/booEdit/app/Editor.cpp
-iostream
--
+/home/ics45c/projects/booEdit/app/Command.hpp
 Editor.hpp
 /home/ics45c/projects/booEdit/app/Editor.hpp
-EditorException.hpp
-/home/ics45c/projects/booEdit/app/EditorException.hpp
+
+/home/ics45c/projects/booEdit/app/Command.move.cpp
+Command.move.hpp
+/home/ics45c/projects/booEdit/app/Command.move.hpp
+stdlib.h
+-
+
+/home/ics45c/projects/booEdit/app/Command.move.hpp
+Command.hpp
+/home/ics45c/projects/booEdit/app/Command.hpp
 
 /home/ics45c/projects/booEdit/app/Editor.hpp
 string
 -
 vector
--
-
-/home/ics45c/projects/booEdit/app/EditorException.hpp
-string
 -
 

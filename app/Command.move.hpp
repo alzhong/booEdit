@@ -15,10 +15,15 @@
 class moveCommand: public Command
 {
 public:
-    virtual ~moveCommand() = default;
+  moveCommand(char direction);
 
-    virtual void execute(Editor& editor);
-    virtual void undo(Editor& editor);
+  virtual ~moveCommand() = default;
+
+  virtual void execute(Editor& editor);
+  virtual void undo(Editor& editor);
+
+private:
+  char direction;
 };
 
 

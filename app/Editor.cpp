@@ -45,16 +45,27 @@ const std::string& Editor::line(int lineNumber) const
 
 void Editor::incColNum()
 {
-  this->cursorColumnNum += 1;
+  cursorColumnNum += 1;
 }
 void Editor::decColNum()
 {
-  this->cursorColumnNum -= 1;
+  cursorColumnNum -= 1;
 }
 void Editor::incLinNum()
 {
   cursorLineNum += 1; 
 }
+void Editor::decLinNum()
+{
+  cursorLineNum -= 1;
+}
+
+
+const int Editor::lineLength() const
+{
+  return textDB[cursorLine()].size();
+}
+
 
 void Editor::modifyAndMoveText(char charToAdd)
 {
@@ -68,7 +79,7 @@ void Editor::deleteChar()
 {
   if (cursorColumn() >= 2)
     {
-      textDB[cursorLine()-1].erase(cursorColumn()-2);
+      textDB[cursorLine()-1].erase(cursorColumn()-2,cursorColumn()-1);
       decColNum();
     }
   

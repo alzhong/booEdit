@@ -5,6 +5,7 @@
 //
 // Implementation of the CommandProcessor class
 
+#include <stdlib.h>
 #include "CommandProcessor.hpp"
 #include "EditorException.hpp"
 #include "Keypress.hpp"
@@ -99,6 +100,15 @@ namespace
                   return makeCommandInteraction(new newLineCommand()); 
                 case 'D':
                   return makeCommandInteraction(new deleteCommand());
+                case 'I':
+                  //exit(1);
+                  return makeCommandInteraction(new moveCommand('N'));
+                case 'K':
+                  return makeCommandInteraction(new moveCommand('S'));          
+                case 'U':
+                  return makeCommandInteraction(new moveCommand('E'));
+                case 'O':
+                  return makeCommandInteraction(new moveCommand('W'));
                 }
 
             }

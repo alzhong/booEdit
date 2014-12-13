@@ -62,16 +62,20 @@ public:
 
 //.........MY PUBLIC FUNCTIONS
 
-  void incColNum();
-  void decColNum();
 
-  void incLinNum();
-  void decLinNum();
-  
+  void incColNum(); //increment column number
+  void decColNum(); //decrement colum number
 
-  void modifyAndMoveText(char charToAdd);
-  void deleteChar();
-  void createNewLine();
+  void incLinNum(); //increment line number
+  void decLinNum(); //decrement line number
+
+  const int lineLength() const; //return current line's length
+
+  void modifyAndMoveText(char charToAdd); //insert character at current 
+                                          //line and column position
+  void deleteChar();    //delete character current position
+  void createNewLine(); //create new line at current line position
+                        //and change column position back to 1
 
 private:
     // Write declarations for any private member variables here.
