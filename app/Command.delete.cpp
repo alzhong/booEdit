@@ -11,7 +11,7 @@
 
 void deleteCommand::execute(Editor& editor)
 {
-  
+  editor.deleteChar();
 }
 
 void deleteCommand::undo(Editor& editor)

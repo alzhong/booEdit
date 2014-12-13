@@ -140,7 +140,6 @@ void CommandProcessor::run()
          
             try
             {
-              
                 interaction.command->execute(editor);
                 view.clearErrorMessage();
             }

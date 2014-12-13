@@ -14,6 +14,11 @@ CMakeFiles/a.out.gtest.dir/app/BooEdit.cpp.o
 CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o
  /home/ics45c/projects/booEdit/app/BooEditLog.cpp
  /home/ics45c/projects/booEdit/app/BooEditLog.hpp
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o
+ /home/ics45c/projects/booEdit/app/Command.delete.cpp
+ /home/ics45c/projects/booEdit/app/Command.delete.hpp
+ /home/ics45c/projects/booEdit/app/Command.hpp
+ /home/ics45c/projects/booEdit/app/Editor.hpp
 CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o
  /home/ics45c/projects/booEdit/app/Command.hpp
  /home/ics45c/projects/booEdit/app/Command.insert.cpp

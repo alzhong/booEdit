@@ -256,9 +256,32 @@ CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.provides: CMakeFiles/a.out.app
 
 CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o
 
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o: CMakeFiles/a.out.app.dir/flags.make
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o: ../app/Command.delete.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_10)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o -c /home/ics45c/projects/booEdit/app/Command.delete.cpp
+
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.app.dir/app/Command.delete.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.delete.cpp > CMakeFiles/a.out.app.dir/app/Command.delete.cpp.i
+
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.app.dir/app/Command.delete.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.delete.cpp -o CMakeFiles/a.out.app.dir/app/Command.delete.cpp.s
+
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.requires:
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.requires
+
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.provides: CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.app.dir/build.make CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.provides
+
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.provides.build: CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o
+
 CMakeFiles/a.out.app.dir/app/main.cpp.o: CMakeFiles/a.out.app.dir/flags.make
 CMakeFiles/a.out.app.dir/app/main.cpp.o: ../app/main.cpp
-	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_10)
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_11)
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.app.dir/app/main.cpp.o"
 	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.app.dir/app/main.cpp.o -c /home/ics45c/projects/booEdit/app/main.cpp
 
@@ -290,6 +313,7 @@ a_out_app_OBJECTS = \
 "CMakeFiles/a.out.app.dir/app/EditorView.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o" \
+"CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o" \
 "CMakeFiles/a.out.app.dir/app/main.cpp.o"
 
 # External object files for target a.out.app
@@ -304,6 +328,7 @@ bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.newLine.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/EditorView.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o
+bin/a.out.app: CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/app/main.cpp.o
 bin/a.out.app: CMakeFiles/a.out.app.dir/build.make
 bin/a.out.app: CMakeFiles/a.out.app.dir/link.txt
@@ -323,6 +348,7 @@ CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.newLine.
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/EditorView.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o.requires
+CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o.requires
 CMakeFiles/a.out.app.dir/requires: CMakeFiles/a.out.app.dir/app/main.cpp.o.requires
 .PHONY : CMakeFiles/a.out.app.dir/requires
 

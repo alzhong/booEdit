@@ -279,6 +279,29 @@ CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o.provides: CMakeFiles/a.out.g
 
 CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o
 
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o: CMakeFiles/a.out.gtest.dir/flags.make
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o: ../app/Command.delete.cpp
+	$(CMAKE_COMMAND) -E cmake_progress_report /home/ics45c/projects/booEdit/out/CMakeFiles $(CMAKE_PROGRESS_11)
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Building CXX object CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o"
+	/usr/bin/clang++   $(CXX_DEFINES) $(CXX_FLAGS) -o CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o -c /home/ics45c/projects/booEdit/app/Command.delete.cpp
+
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.i"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -E /home/ics45c/projects/booEdit/app/Command.delete.cpp > CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.i
+
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.s"
+	/usr/bin/clang++  $(CXX_DEFINES) $(CXX_FLAGS) -S /home/ics45c/projects/booEdit/app/Command.delete.cpp -o CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.s
+
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.requires:
+.PHONY : CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.requires
+
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.provides: CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.requires
+	$(MAKE) -f CMakeFiles/a.out.gtest.dir/build.make CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.provides.build
+.PHONY : CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.provides
+
+CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.provides.build: CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o
+
 # Object files for target a.out.gtest
 a_out_gtest_OBJECTS = \
 "CMakeFiles/a.out.gtest.dir/gtest/gtestmain.cpp.o" \
@@ -290,7 +313,8 @@ a_out_gtest_OBJECTS = \
 "CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o" \
 "CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o" \
-"CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o"
+"CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o" \
+"CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o"
 
 # External object files for target a.out.gtest
 a_out_gtest_EXTERNAL_OBJECTS =
@@ -305,6 +329,7 @@ bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/Command.newLine.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o
+bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/build.make
 bin/a.out.gtest: CMakeFiles/a.out.gtest.dir/link.txt
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --red --bold "Linking CXX executable bin/a.out.gtest"
@@ -324,6 +349,7 @@ CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/Command.newL
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o.requires
 CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o.requires
+CMakeFiles/a.out.gtest.dir/requires: CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o.requires
 .PHONY : CMakeFiles/a.out.gtest.dir/requires
 
 CMakeFiles/a.out.gtest.dir/clean:

@@ -8,6 +8,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/a.out.app.dir/app/EditorView.cpp.o"
   "CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o"
   "CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o"
+  "CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o"
   "CMakeFiles/a.out.app.dir/app/main.cpp.o"
   "bin/a.out.app.pdb"
   "bin/a.out.app"

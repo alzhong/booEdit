@@ -9,6 +9,7 @@ FILE(REMOVE_RECURSE
   "CMakeFiles/a.out.gtest.dir/app/EditorView.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/BooEditLog.cpp.o"
   "CMakeFiles/a.out.gtest.dir/app/Command.insert.cpp.o"
+  "CMakeFiles/a.out.gtest.dir/app/Command.delete.cpp.o"
   "bin/a.out.gtest.pdb"
   "bin/a.out.gtest"
 )

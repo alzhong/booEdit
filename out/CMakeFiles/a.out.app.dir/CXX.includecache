@@ -6,3 +6,33 @@
 
 #IncludeRegexTransform: 
 
+/home/ics45c/projects/booEdit/app/Command.delete.cpp
+Command.delete.hpp
+/home/ics45c/projects/booEdit/app/Command.delete.hpp
+iostream
+-
+
+/home/ics45c/projects/booEdit/app/Command.delete.hpp
+Command.hpp
+/home/ics45c/projects/booEdit/app/Command.hpp
+
+/home/ics45c/projects/booEdit/app/Command.hpp
+Editor.hpp
+/home/ics45c/projects/booEdit/app/Editor.hpp
+
+/home/ics45c/projects/booEdit/app/Command.newLine.cpp
+Command.newLine.hpp
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
+iostream
+-
+
+/home/ics45c/projects/booEdit/app/Command.newLine.hpp
+Command.hpp
+/home/ics45c/projects/booEdit/app/Command.hpp
+
+/home/ics45c/projects/booEdit/app/Editor.hpp
+string
+-
+vector
+-
+

@@ -14,6 +14,11 @@ CMakeFiles/a.out.app.dir/app/BooEdit.cpp.o: ../app/EditorView.hpp
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.cpp
 CMakeFiles/a.out.app.dir/app/BooEditLog.cpp.o: ../app/BooEditLog.hpp
 
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o: ../app/Command.delete.cpp
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o: ../app/Command.delete.hpp
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o: ../app/Command.hpp
+CMakeFiles/a.out.app.dir/app/Command.delete.cpp.o: ../app/Editor.hpp
+
 CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o: ../app/Command.hpp
 CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o: ../app/Command.insert.cpp
 CMakeFiles/a.out.app.dir/app/Command.insert.cpp.o: ../app/Command.insert.hpp
